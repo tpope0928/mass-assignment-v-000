@@ -5,7 +5,9 @@ class Person
   def initialize(attributes=nil)
     if attributes
       attribute.each do |k,v|
-        self.send("#{k")
+        self.send("#{k}=", v)
+      end
+    end
     
   end
 end
