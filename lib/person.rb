@@ -4,7 +4,8 @@ class Person
 
   def initialize(attributes=nil)
     if attributes
-      
+      attribute.each do |k, v|
+        
     
   end
 end
